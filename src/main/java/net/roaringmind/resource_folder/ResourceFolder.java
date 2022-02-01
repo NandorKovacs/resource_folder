@@ -31,6 +31,7 @@ public class ResourceFolder {
       }
       System.out.println(Files.readString(f.toPath()));
     }
+    walk.close();
   }
 
   public static void main(String[] args) throws URISyntaxException, IOException {
